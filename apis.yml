@@ -1,7 +1,21 @@
 aid: kareinn
 name: KareInn
-description: KareInn is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  KareInn is a UK-based digital care management and care-home planning software
+  provider whose cloud platform helps residential and nursing care providers
+  streamline operations, evidence CQC compliance, and improve resident care. The
+  product suite spans a care-management dashboard with occupancy and management
+  reporting, a customizable care-plan builder, clinical policy and procedure
+  workflows, care-delivery task assignment and monitoring, pre-admissions and
+  occupancy pipeline management, event and incident tracking, and a resident and
+  family engagement portal. KareInn integrates with partner systems including
+  Civica/Coldharbour income processing, Camscope electronic medication
+  management, and Ally Cares acoustic monitoring, and is positioned as an NHS
+  assured supplier. This profile was added to the API Evangelist network as a
+  Seedcamp portfolio lead; KareInn does not currently publish a public developer
+  API, developer portal, OpenAPI definition, SDKs, or a machine-readable
+  discovery surface — the artifacts below capture its public product, commercial,
+  and policy pages only.
 url: https://raw.githubusercontent.com/api-evangelist/kareinn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +23,31 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://kareinn.com/wp-content/uploads/2023/02/KareInn-become-NHS-Assured-Supplier.png
 tags:
 - Company
+- Care Homes
+- Digital Care Planning
+- Care Management
+- Health
+- Social Care
+- CQC Compliance
+- SaaS
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +56,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://kareinn.com
+  url: https://kareinn.com
+- type: Blog
+  url: https://kareinn.com/resources/blog/
+- type: Pricing
+  url: https://kareinn.com/how-much-does-care-planning-software-cost/
+- type: SignUp
+  url: https://kareinn.com/book-a-demo/
+- type: Login
+  url: https://app.kareinn.com
+- type: Support
+  url: https://kareinn.com/why-kareinn/kareinn-training-centre/
+- type: TermsOfService
+  url: https://kareinn.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://kareinn.com/wp-content/uploads/2020/07/KareInn-Privacy-Policy-2019.pdf
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
